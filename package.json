@@ -1,0 +1,19 @@
+{
+  "name": "angular-mode5-codes",
+  "version": "1.0.0",
+  "description": "This contains code snippets on Angular Promise, $http and $ resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tub99/Angular-Mod5-Sessions-Codes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tub99/Angular-Mod5-Sessions-Codes/issues"
+  },
+  "homepage": "https://github.com/tub99/Angular-Mod5-Sessions-Codes#readme"
+}
