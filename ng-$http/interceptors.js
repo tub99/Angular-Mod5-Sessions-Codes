@@ -19,13 +19,13 @@ angular.module('errorHandlerModule', [])
             responseError: function (response) {
                 switch (response.status) {
                     case 403:
-                        console.error('error-403');
+                        console.error(`Forbidden: You don't have permission to access directoryon this serve`);
                         break;
                     case 401:
-                        console.error('error-401');
+                        console.error('UnAuthorized access');
                         break;
                     case 404:
-                        console.error('error-404');
+                        console.error('Resource Not Found');
                         break;
 
                 }
