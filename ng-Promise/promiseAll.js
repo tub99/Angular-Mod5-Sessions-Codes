@@ -8,8 +8,8 @@ var app = angular.module('promiseApp', [])
         $q.all([promise1, promise2, promise3])
         .then(function(result){
             console.info('1st Promise data :',result[0]);
-            console.info('1st Promise data :',result[1]);
-            console.info('1st Promise data :',result[2]);
+            console.info('2nd Promise data :',result[1]);
+            console.info('3rd Promise data :',result[2]);
         })
         .catch(function(err){
             console.error('Error is resolving promise');
