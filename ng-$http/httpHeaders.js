@@ -1,5 +1,6 @@
-var app = angular.module('httpApp', [])
-    .controller('HttpCtrl', ['$scope', 'DataService', function ($scope, DataService) {
+var app = angular.module('httpApp', ['errorHandlerModule'])
+    .controller('HttpCtrl', ['$scope', 'DataService','errorHandlerSvc',
+     function ($scope, DataService, errorHandlerSvc) {
         $scope.greeting = 'Welcome to $http';
         var dataPromise = DataService.getTransformedData('../data/data1.json');
         dataPromise
